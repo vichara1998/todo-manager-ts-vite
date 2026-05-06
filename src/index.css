@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Kodchasan:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import 'tailwindcss';
+@custom-variant dark (&:where(.dark, .dark *));
+@source "../node_modules/react-tailwindcss-datepicker/dist/index.esm.js";
+
+@theme {
+    --color-primary-bg: #faf9f5;
+    --color-primary-bg-dark: #2a2623;
+    --color-primary-fg: #a99985;
+    --color-primary-fg-dark: #36312d;
+    --color-primary-fg-bold: #857766;
+    --color-primary-fg-faded: #f4ebe0;
+    --color-off-red: #b64e4e;
+    --color-off-green: #5d9f75;
+    --color-off-yellow: #b6a04e;
+    --font-primary: 'Comfortaa', sans-serif;
+    --font-secondary: 'Nunito', sans-serif;
+    --font-special: 'Kodchasan', sans-serif;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+    width: 4px;
+    height: 8px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background: #b6a58f;
+    border-radius: 9999px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #8f806d;
+}
