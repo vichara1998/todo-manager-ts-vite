@@ -1,15 +1,15 @@
-import CenterConsole from './components/centerConsole/CenterConsole';
-import Header from './components/Header';
-import ToDoContainer from './components/todoContainer/ToDoContainer';
+import Home from "./pages/Home";
+import {Route,Routes} from 'react-router-dom';
 
 function App() {
-    return (
-        <div className="h-screen px-20 py-[4vh] bg-primary-bg font-primary dark:bg-primary-bg-dark">
-            <Header />
-            <ToDoContainer />
-            <CenterConsole />
-        </div>
-    );
+  return (
+    <>
+    <Routes>
+      <Route index  element={<Home />}/>
+
+    </Routes>
+    </>
+  );
 }
 
 export default App;
