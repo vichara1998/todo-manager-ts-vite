@@ -15,7 +15,7 @@ const Header = () => {
     }, [isDarkMode]);
 
     return (
-        <header className="flex justify-between items-center h-[3vh]">
+        <header className="flex justify-between items-center h-[6vh]">
             <div>
                 <p className="text-3xl text-primary-fg font-bold font-special uppercase">
                     Finito

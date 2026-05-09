@@ -4,7 +4,7 @@ import ToDoContainer from './components/todoContainer/ToDoContainer';
 
 function App() {
     return (
-        <div className="h-screen px-20 py-10 bg-primary-bg font-primary dark:bg-primary-bg-dark">
+        <div className="h-screen px-20 py-[4vh] bg-primary-bg font-primary dark:bg-primary-bg-dark">
             <Header />
             <ToDoContainer />
             <CenterConsole />
